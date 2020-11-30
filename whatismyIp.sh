@@ -2,7 +2,6 @@
 # This script get your public ip
 # Opendns uses resolve{1..4} dns servers it should keep your public ip
 
-
 error(){
   echo -e "$0 invalid option -- $1"
   echo -e "Try '$0 --help' for more information"
