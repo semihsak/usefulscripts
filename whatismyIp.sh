@@ -25,11 +25,17 @@ do
 done
 }
 
+getlocal(){
+  hostname -I
+}
+
+
 while true;
 do
   case "$1" in
   -p| --public) getpublic; break;;
   -h| --help) gethelp; break;;
+  -l| --local) getlocal; break;;
   * ) error; break;;
   esac
 done
