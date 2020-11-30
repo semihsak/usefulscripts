@@ -15,6 +15,7 @@ gethelp(){
   echo 'Mandatory arguments to long options are mandatory for short options too.'
   echo -e "-p, --public \t get your public ip address from opendns query"
   echo -e "-h, --help \t display this help and exit"
+  echo -e "-l --local \t get your local ip address/addresses"
 
 }
 
